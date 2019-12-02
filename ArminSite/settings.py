@@ -120,3 +120,4 @@ USE_TZ = True
 
 STATIC_URL = '/blog/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'blog/static')
+print ("This is base-dir : " + BASE_DIR)
